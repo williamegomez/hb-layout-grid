@@ -15,7 +15,7 @@
   }
   
   .navigationbar {
-      background-color: gray;
+      background-color: #D8D8D8;
       top: 0;
       width: 100%;
       position: fixed;
@@ -29,7 +29,7 @@
   }
 
   .footer {
-      background-color: gray;
+      background-color: #D8D8D8;
       width: 100%;
       height: 200px;
       border: 1px;
@@ -45,7 +45,7 @@
       border: 1px;
       border-style: solid;
       height: 100%;
-      background-color: gray;
+      background-color: #D8D8D8;
   }
   
   .lhalf{
@@ -61,7 +61,7 @@
       border: 1px;
       border-style: solid;
       height: 100%;
-      background-color: gray;
+      background-color: #D8D8D8;
   }
   
   .lthird{
@@ -79,7 +79,7 @@
   .square{
       width: 150px;
       height: 150px;
-      background-color: gray;
+      background-color: #D8D8D8;
       border: 1px;
       border-style: solid;
   }
@@ -113,15 +113,5 @@
     .rthird{
           grid-area:  5 / 1 / 6  / 2;
       }
-  }
-   
-  /* (1920x1080) Full HD Display */
-  @media  screen and (max-width: 720px) {
-      /* insert styles here */
-  }
-   
-  /* (1600x900) HD+ Display */
-  @media  screen and (max-width: 1024px) {
-      /* insert styles here */
   }
   
